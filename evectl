@@ -1,0 +1,4 @@
+#!/bin/bash
+source /opt/evectl/venv/bin/activate
+trap deactivate EXIT
+main.py "$@"

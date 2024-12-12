@@ -1,0 +1,10 @@
+directories:
+  bin: /opt/evectl/bin/
+  data: /var/lib/evectl/
+  config: /opt/evectl/etc/
+  socket: /var/run/evectl/
+  vm_config: /opt/evectl/etc/vmcfg/
+
+network:
+  metadata_server: http://192.168.27.254:9001/
+  default_bridge: vmbr0
