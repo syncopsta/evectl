@@ -162,20 +162,20 @@ All Generic Cloud Images with cloud-init preinstalled should be working.
 Currently only tested with Ubuntu images.
 
 
-| Linux Distribution | Download | Tested |
-| -------- | -------| -------|
-| Ubuntu | [Download](https://cloud-images.ubuntu.com/) | Yes |
-| AlmaLinux  | [Download](https://almalinux.org/get-almalinux/#Cloud_Images) | No |
-| Alpine Linux | [Download](https://alpinelinux.org/cloud/) | No |
-| Arch Linux | [Download](https://gitlab.archlinux.org/archlinux/arch-boxes/) | No |
-| CentOS | [Download](https://cloud.centos.org/centos/9-stream/) | No |
-| Debian | [Download](https://cdimage.debian.org/images/cloud/) | No |
-| Fedora | [Download](https://alt.fedoraproject.org/cloud/) | No |
-| Kali Linux | [Download](https://www.kali.org/get-kali/#kali-cloud) | No |
-| openSUSE | [Download](https://get.opensuse.org/leap) | No |
-| RHEL | [Download](https://access.redhat.com/downloads/content/479/ver=/rhel---9/x86_64/product-downloads) | No |
-| Rocky Linux | [Download](https://rockylinux.org/download) | No |
-| SLES | [Download](https://www.suse.com/download/sles/) | No |
+| Linux Distribution | Download | Version | Tested |
+| -------- | -------| -------| -------|
+| Ubuntu | [Download](https://cloud-images.ubuntu.com/) | 24.04 | Yes |
+| Alpine Linux | [Download](https://alpinelinux.org/cloud/) | Cloud / UEFI | Yes |
+| AlmaLinux  | [Download](https://almalinux.org/get-almalinux/#Cloud_Images) | / | No |
+| Arch Linux | [Download](https://gitlab.archlinux.org/archlinux/arch-boxes/) | / | No |
+| CentOS | [Download](https://cloud.centos.org/centos/9-stream/) | / | No |
+| Debian | [Download](https://cdimage.debian.org/images/cloud/) | / | No |
+| Fedora | [Download](https://alt.fedoraproject.org/cloud/) | / | No |
+| Kali Linux | [Download](https://www.kali.org/get-kali/#kali-cloud) | / | No |
+| openSUSE | [Download](https://get.opensuse.org/leap) | / | No |
+| RHEL | [Download](https://access.redhat.com/downloads/content/479/ver=/rhel---9/x86_64/product-downloads) | / | No |
+| Rocky Linux | [Download](https://rockylinux.org/download) | / | No |
+| SLES | [Download](https://www.suse.com/download/sles/) | / | No |
 
 
 ## Metadata Server (evemds)
