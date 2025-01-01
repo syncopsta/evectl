@@ -68,7 +68,7 @@ check_status "System user created"
 # Add to PATH
 print_status "Moving evectl to /usr/local/bin"
 mv /opt/evectl/evectl /usr/local/bin/evectl
-chmod +x /opt/evectl/evectl
+chmod +x /usr/local/bin/evectl
 
 # Set permissions
 print_status "Setting correct permissions..."
