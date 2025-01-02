@@ -45,7 +45,7 @@ def start_vm(args):
           f'--net "tap={tapdevice},mac={mac},ip=,mask=" ' \
           f'--serial null ' \
           f'--console null ' \
-          f'--platform serial_number="ds=nocloud;s={mds}{args.vm_name}/" ' \
+          f'--platform serial_number="ds=nocloud-net;s={mds}{args.vm_name}/" ' \
           f'--api-socket path={eve_cfg["directories"]["socket"]}{args.vm_name}.socket'
     start_process(cmd)
 
